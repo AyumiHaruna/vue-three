@@ -6,6 +6,13 @@
     import { onMounted, ref, computed, watch } from 'vue';
     import { OrbitControls } from 'three/examples/jsm/Addons.js';
 
+    /** 
+     * 
+     * code from @AlvaroDevLabs youtube channel
+     * https://www.youtube.com/watch?v=1mFWG8WBif8
+     * 
+    */
+
     // dont use "ref" for the renderer, 
     // it lowers the performance a lot
     let renderer: WebGLRenderer;
